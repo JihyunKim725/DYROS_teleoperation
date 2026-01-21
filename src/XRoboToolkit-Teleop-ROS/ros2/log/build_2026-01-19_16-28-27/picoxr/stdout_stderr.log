@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid XRNode::OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:281:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  281 |                   if ([01;35m[Kindex >= joint_names.size()[m[K) break;
+      |                       [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/picoxr/talker
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/libPXREARobotSDK.so
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/package_run_dependencies/picoxr
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/parent_prefix_path/picoxr
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/path.sh
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/path.dsv
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.bash
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.sh
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.zsh
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.dsv
+-- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.dsv
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/packages/picoxr
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/cmake/picoxrConfig.cmake
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/cmake/picoxrConfig-version.cmake
+-- Up-to-date symlink: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.xml

@@ -1,0 +1,17 @@
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/picoxr/talker
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/libPXREARobotSDK.so
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/package_run_dependencies/picoxr
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/parent_prefix_path/picoxr
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/ament_prefix_path.sh
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/ament_prefix_path.dsv
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/path.sh
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/environment/path.dsv
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.bash
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.sh
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.zsh
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/local_setup.dsv
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.dsv
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/ament_index/resource_index/packages/picoxr
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/cmake/picoxrConfig.cmake
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/cmake/picoxrConfig-version.cmake
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.xml

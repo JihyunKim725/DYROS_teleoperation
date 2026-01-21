@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xr_msgs/msg/Custom.msg
+// generated code does not contain a copyright notice
+
+#include "xr_msgs/msg/Controller.idl"
+#include "xr_msgs/msg/Head.idl"
+
+module xr_msgs {
+  module msg {
+    struct Custom {
+      int64 timestamp_ns;
+
+      int32 input;
+
+      xr_msgs::msg::Head head;
+
+      xr_msgs::msg::Controller left_controller;
+
+      xr_msgs::msg::Controller right_controller;
+    };
+  };
+};

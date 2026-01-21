@@ -1,0 +1,194 @@
+[0.005s] Invoking command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.327s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.365s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.405s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.408s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.443s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.503s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.520s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.549s] -- Looking for pthread.h
+[0.602s] -- Looking for pthread.h - found
+[0.602s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.657s] -- Found Threads: TRUE  
+[0.840s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.128s] -- Configuring done
+[1.139s] -- Generating done
+[1.143s] -- Build files have been written to: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs
+[1.150s] Invoked command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs
+[1.151s] Invoking command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs -- -j20 -l20
+[1.178s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.186s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.377s] [  5%] Built target xr_msgs__cpp
+[1.378s] [  8%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_generator_c.dir/rosidl_generator_c/xr_msgs/msg/detail/head__functions.c.o[0m
+[1.379s] [ 11%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_generator_c.dir/rosidl_generator_c/xr_msgs/msg/detail/controller__functions.c.o[0m
+[1.379s] [ 13%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_generator_c.dir/rosidl_generator_c/xr_msgs/msg/detail/custom__functions.c.o[0m
+[1.383s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.385s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.385s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.411s] [ 25%] [32m[1mLinking C shared library libxr_msgs__rosidl_generator_c.so[0m
+[1.436s] [ 25%] Built target xr_msgs__rosidl_generator_c
+[1.444s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.444s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.445s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.557s] [ 36%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xr_msgs/msg/custom__type_support.cpp.o[0m
+[1.558s] [ 41%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xr_msgs/msg/head__type_support.cpp.o[0m
+[1.558s] [ 41%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xr_msgs/msg/controller__type_support.cpp.o[0m
+[1.567s] [ 44%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/controller__type_support.cpp.o[0m
+[1.569s] [ 50%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/head__type_support.cpp.o[0m
+[1.569s] [ 50%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/custom__type_support.cpp.o[0m
+[1.582s] [ 52%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/dds_fastrtps/head__type_support.cpp.o[0m
+[1.585s] [ 55%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[1.585s] [ 58%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/dds_fastrtps/custom__type_support.cpp.o[0m
+[1.624s] [ 61%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xr_msgs/msg/head__type_support.cpp.o[0m
+[1.626s] [ 66%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xr_msgs/msg/custom__type_support.cpp.o[0m
+[1.626s] [ 66%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xr_msgs/msg/controller__type_support.cpp.o[0m
+[1.656s] [ 69%] [32m[1mLinking CXX shared library libxr_msgs__rosidl_typesupport_c.so[0m
+[1.687s] [ 69%] Built target xr_msgs__rosidl_typesupport_c
+[1.699s] [ 72%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/head__type_support.c.o[0m
+[1.702s] [ 75%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/custom__type_support.c.o[0m
+[1.702s] [ 77%] [32mBuilding C object CMakeFiles/xr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/controller__type_support.c.o[0m
+[1.728s] [ 80%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/controller__type_support_c.cpp.o[0m
+[1.730s] [ 83%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/head__type_support_c.cpp.o[0m
+[1.732s] [ 86%] [32mBuilding CXX object CMakeFiles/xr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/custom__type_support_c.cpp.o[0m
+[1.735s] [ 88%] [32m[1mLinking C shared library libxr_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.757s] [ 88%] Built target xr_msgs__rosidl_typesupport_introspection_c
+[1.867s] [ 91%] [32m[1mLinking CXX shared library libxr_msgs__rosidl_typesupport_cpp.so[0m
+[1.896s] [ 91%] Built target xr_msgs__rosidl_typesupport_cpp
+[1.931s] [ 94%] [32m[1mLinking CXX shared library libxr_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.931s] [ 97%] [32m[1mLinking CXX shared library libxr_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.976s] [ 97%] Built target xr_msgs__rosidl_typesupport_fastrtps_cpp
+[1.978s] [ 97%] Built target xr_msgs__rosidl_typesupport_introspection_cpp
+[1.990s] [100%] [32m[1mLinking CXX shared library libxr_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.035s] [100%] Built target xr_msgs__rosidl_typesupport_fastrtps_c
+[2.052s] [100%] Built target xr_msgs
+[2.062s] Invoked command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs -- -j20 -l20
+[2.069s] Invoking command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs
+[2.076s] -- Install configuration: ""
+[2.076s] -- Execute custom install script
+[2.077s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/ament_index/resource_index/rosidl_interfaces/xr_msgs
+[2.087s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.h
+[2.095s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.h
+[2.103s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__functions.h
+[2.111s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.h
+[2.118s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.h
+[2.126s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__functions.h
+[2.133s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.h
+[2.139s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.h
+[2.146s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__functions.h
+[2.152s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.h
+[2.157s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.h
+[2.162s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.h
+[2.168s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.173s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/library_path.sh
+[2.181s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/library_path.dsv
+[2.190s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+[2.198s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__rosidl_typesupport_fastrtps_c.h
+[2.207s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__rosidl_typesupport_fastrtps_c.h
+[2.216s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.224s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.hpp
+[2.230s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.hpp
+[2.238s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__builder.hpp
+[2.249s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.hpp
+[2.256s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__traits.hpp
+[2.263s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.hpp
+[2.272s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__builder.hpp
+[2.277s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.hpp
+[2.281s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__traits.hpp
+[2.286s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.hpp
+[2.292s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__builder.hpp
+[2.297s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.hpp
+[2.301s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__traits.hpp
+[2.309s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.hpp
+[2.315s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.hpp
+[2.322s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.328s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.335s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__rosidl_typesupport_fastrtps_cpp.hpp
+[2.346s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.352s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__rosidl_typesupport_introspection_c.h
+[2.358s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__rosidl_typesupport_introspection_c.h
+[2.366s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__rosidl_typesupport_introspection_c.h
+[2.371s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.377s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[2.383s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__rosidl_typesupport_introspection_cpp.hpp
+[2.391s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__rosidl_typesupport_introspection_cpp.hpp
+[2.398s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Head.idl
+[2.404s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Custom.idl
+[2.409s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Controller.idl
+[2.414s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Head.msg
+[2.421s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Custom.msg
+[2.431s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/msg/Controller.msg
+[2.441s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/ament_index/resource_index/package_run_dependencies/xr_msgs
+[2.450s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/ament_index/resource_index/parent_prefix_path/xr_msgs
+[2.460s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/ament_prefix_path.sh
+[2.471s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/ament_prefix_path.dsv
+[2.481s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/path.sh
+[2.492s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/environment/path.dsv
+[2.502s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/local_setup.bash
+[2.508s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/local_setup.sh
+[2.516s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/local_setup.zsh
+[2.525s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/local_setup.dsv
+[2.531s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/package.dsv
+[2.539s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/ament_index/resource_index/packages/xr_msgs
+[2.550s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/rosidl_cmake-extras.cmake
+[2.559s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.567s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.577s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.587s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.593s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.601s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.609s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgsConfig.cmake
+[2.616s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgsConfig-version.cmake
+[2.622s] -- Symlinking: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/package.xml
+[2.631s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_generator_c.so
+[2.631s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_generator_c.so" to ""
+[2.631s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_fastrtps_c.so
+[2.632s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.632s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.632s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.632s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_introspection_c.so
+[2.632s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.632s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_c.so
+[2.633s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_c.so" to ""
+[2.633s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_introspection_cpp.so
+[2.633s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.633s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_cpp.so
+[2.633s] -- Set runtime path of "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib/libxr_msgs__rosidl_typesupport_cpp.so" to ""
+[2.633s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_generator_cExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_generator_cppExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/export_xr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_cExport.cmake
+[2.634s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.635s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.635s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.635s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_cppExport.cmake
+[2.635s] -- Installing: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake/xr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.636s] Invoked command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs

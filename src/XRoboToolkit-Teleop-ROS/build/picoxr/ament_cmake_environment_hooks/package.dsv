@@ -1,0 +1,4 @@
+source;share/picoxr/local_setup.bash
+source;share/picoxr/local_setup.dsv
+source;share/picoxr/local_setup.sh
+source;share/picoxr/local_setup.zsh

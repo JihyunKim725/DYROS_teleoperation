@@ -1,0 +1,11 @@
+source;share/picoxr/hook/cmake_prefix_path.ps1
+source;share/picoxr/hook/cmake_prefix_path.dsv
+source;share/picoxr/hook/cmake_prefix_path.sh
+source;share/picoxr/hook/ld_library_path_lib.ps1
+source;share/picoxr/hook/ld_library_path_lib.dsv
+source;share/picoxr/hook/ld_library_path_lib.sh
+source;share/picoxr/local_setup.bash
+source;share/picoxr/local_setup.dsv
+source;share/picoxr/local_setup.ps1
+source;share/picoxr/local_setup.sh
+source;share/picoxr/local_setup.zsh

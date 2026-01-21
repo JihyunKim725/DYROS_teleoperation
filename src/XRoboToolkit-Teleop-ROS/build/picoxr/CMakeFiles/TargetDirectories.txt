@@ -1,0 +1,17 @@
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/uninstall.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/picoxr_uninstall.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/talker.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/test.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/edit_cache.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/rebuild_cache.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/list_install_components.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/install.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/install/local.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/install/strip.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/test.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/edit_cache.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/list_install_components.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/install.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/install/local.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/_deps/json-build/CMakeFiles/install/strip.dir

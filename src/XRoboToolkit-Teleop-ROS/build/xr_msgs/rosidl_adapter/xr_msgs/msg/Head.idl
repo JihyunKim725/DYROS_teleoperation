@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xr_msgs/msg/Head.msg
+// generated code does not contain a copyright notice
+
+
+module xr_msgs {
+  module msg {
+    typedef float float__7[7];
+    struct Head {
+      float__7 pose;
+
+      int32 status;
+    };
+  };
+};

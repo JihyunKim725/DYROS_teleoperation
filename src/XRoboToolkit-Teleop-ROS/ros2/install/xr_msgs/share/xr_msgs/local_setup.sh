@@ -1,0 +1,1 @@
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/local_setup.sh
