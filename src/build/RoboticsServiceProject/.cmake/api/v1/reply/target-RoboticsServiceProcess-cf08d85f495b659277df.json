@@ -1,0 +1,473 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/bin/RoboticsServiceProcess"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"RoboticsServiceProcess/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 875,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 575,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 634,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 6,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUSINESS_LIBRARY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "COMMONUTILS_LIBRARY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEVICECONNECTIONSDK_LIBRARY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LINUX_x86"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PXREAROBOTSDK_LIBRARY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_CORE5COMPAT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_MESSAGELOGCONTEXT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_USE_CXX11_ABI=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_HAS_STD_BYTE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/RoboticsServiceProcess/RoboticsServiceProcess_autogen/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../Business"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../CommonUtils"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../DeviceConnectionManager"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../PXREAGRPCServer"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../PXREAService/linux_x86"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/RoboticsServiceProcess/../PXREARobotSDK"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/PXREAGRPCServer/../PXREAService/linux_x86"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/PXREAGRPCServer/../Business"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/PXREAGRPCServer/../DeviceConnectionManager"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/Business/../CommonUtils"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/Business/../DeviceConnectionManager"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/CommonUtils/../DeviceConnectionManager"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/../CommonUtils"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/PXREARobotSDK/../PXREAService/linux_x86"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/dyros/Qt/6.7.3/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/dyros/Qt/6.7.3/gcc_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/dyros/Qt/6.7.3/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/dyros/Qt/6.7.3/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/dyros/Qt/6.7.3/gcc_64/include/QtCore5Compat"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6,
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "CommonUtils::@033c9704e7889ee5190a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "DeviceConnectionManager::@83b64a181fc586100370"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Business::@92c7ca2ea1ef377b6e57"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PXREAGRPCServer::@2ecb3ad7b44e588889c2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PXREARobotSDK::@ea805d9dd28bcdb97477"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "RoboticsServiceProcess_autogen::@f29a9b348a5fe84928b3"
+		}
+	],
+	"id" : "RoboticsServiceProcess::@f29a9b348a5fe84928b3",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/Business/../bin",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/CommonUtils/../bin",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/../bin",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/dyros/pico_ws/src/build/RoboticsServiceProject/Business:/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager:/home/dyros/pico_ws/src/build/RoboticsServiceProject/CommonUtils:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/Business/../bin:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/CommonUtils/../bin:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/../bin:/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREAGRPCServer:/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREARobotSDK:/home/dyros/Qt/6.7.3/gcc_64/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../PXREAGRPCServer/libPXREAGRPCServer.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../Business/libBusiness.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../DeviceConnectionManager/libDeviceConnectionManager.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../PXREARobotSDK/libPXREARobotSDK.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgrpc++.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so.23",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgrpc++_reflection.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgrpc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgpr.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so.23",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgrpc++_reflection.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../CommonUtils/libCommonUtils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/dyros/Qt/6.7.3/gcc_64/lib/libQt6Core5Compat.so.6.7.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/home/dyros/Qt/6.7.3/gcc_64/lib/libQt6Network.so.6.7.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/dyros/Qt/6.7.3/gcc_64/lib/libQt6Core.so.6.7.3",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgrpc++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgrpc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgpr",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lprotobuf",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RoboticsServiceProcess",
+	"nameOnDisk" : "RoboticsServiceProcess",
+	"paths" : 
+	{
+		"build" : "RoboticsServiceProcess",
+		"source" : "RoboticsServiceProcess"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/RoboticsServiceProcess/RoboticsServiceProcess_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "RoboticsServiceProcess/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "RoboticsServiceProcess/singleapplication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "RoboticsServiceProcess/singleapplication.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

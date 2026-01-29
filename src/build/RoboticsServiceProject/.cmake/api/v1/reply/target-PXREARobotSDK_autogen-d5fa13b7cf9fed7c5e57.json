@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"PXREARobotSDK/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "PXREARobotSDK_autogen::@ea805d9dd28bcdb97477",
+	"isGeneratorProvided" : true,
+	"name" : "PXREARobotSDK_autogen",
+	"paths" : 
+	{
+		"build" : "PXREARobotSDK",
+		"source" : "PXREARobotSDK"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREARobotSDK/CMakeFiles/PXREARobotSDK_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREARobotSDK/CMakeFiles/PXREARobotSDK_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

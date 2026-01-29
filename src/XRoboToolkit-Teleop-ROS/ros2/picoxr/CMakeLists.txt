@@ -17,6 +17,11 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+# for body_measurement
+find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+
 # nlohmann/json
 include(FetchContent)
 FetchContent_Declare(
@@ -34,6 +39,15 @@ ament_target_dependencies(talker
   tf2
   tf2_ros
   geometry_msgs
+)
+
+# for body_measurement
+add_executable(body_measurement_node src/body_measurement_node.cpp)
+ament_target_dependencies(body_measurement_node
+  rclcpp
+  geometry_msgs
+  tf2_ros
+  tf2_geometry_msgs
 )
 
 if(NOT UNIX)
@@ -75,7 +89,15 @@ target_link_libraries(talker
   nlohmann_json::nlohmann_json
   )
 
-install(TARGETS talker DESTINATION lib/${PROJECT_NAME})
+
+
+
+
+install(TARGETS 
+  talker
+  body_measurement_node
+   DESTINATION lib/${PROJECT_NAME})
+
 install(FILES ${PICORobotSDK_LIB_PATH}/lib${PICORobotSDK_LIB_NAME}.so
         DESTINATION lib)
 

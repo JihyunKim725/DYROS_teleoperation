@@ -1,1 +1,0 @@
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/xr_msgs/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/dyros/pico_ws/src/build/com': /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-Unity-Client/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/COMIntegration/COMIntegration~ -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/install/com
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.133s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.192s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.197s] -- Configuring done
+[0.198s] -- Generating done
+[0.199s] -- Build files have been written to: /home/dyros/pico_ws/src/build/com
+[0.201s] Invoked command in '/home/dyros/pico_ws/src/build/com' returned '0': /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-Unity-Client/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/COMIntegration/COMIntegration~ -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/install/com
+[0.202s] Invoking command in '/home/dyros/pico_ws/src/build/com': /usr/bin/cmake --build /home/dyros/pico_ws/src/build/com -- -j20 -l20
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/COMIntegration.dir/COMIntegration.cpp.o[0m
+[0.264s] [01m[K/home/dyros/pico_ws/src/XRoboToolkit-Unity-Client/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/COMIntegration/COMIntegration~/COMIntegration.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kwindows.h: 그런 파일이나 디렉터리가 없습니다
+[0.264s]    11 | #include [01;31m[K<windows.h>[m[K
+[0.264s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.264s] compilation terminated.
+[0.265s] gmake[2]: *** [CMakeFiles/COMIntegration.dir/build.make:76: CMakeFiles/COMIntegration.dir/COMIntegration.cpp.o] 오류 1
+[0.265s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/COMIntegration.dir/all] 오류 2
+[0.265s] gmake: *** [Makefile:91: all] 오류 2
+[0.267s] Invoked command in '/home/dyros/pico_ws/src/build/com' returned '2': /usr/bin/cmake --build /home/dyros/pico_ws/src/build/com -- -j20 -l20

@@ -1,6 +1,7 @@
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/uninstall.dir
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/picoxr_uninstall.dir
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/talker.dir
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/body_measurement_node.dir
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/test.dir
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/edit_cache.dir
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+Invoking command in '/home/dyros/pico_ws/src/build/RoboticsServiceProject': /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/install/RoboticsServiceProject

@@ -1,0 +1,7 @@
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Unity-Client/Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/COMIntegration/COMIntegration~/COMIntegration.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kwindows.h: 그런 파일이나 디렉터리가 없습니다
+   11 | #include [01;31m[K<windows.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/COMIntegration.dir/build.make:76: CMakeFiles/COMIntegration.dir/COMIntegration.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/COMIntegration.dir/all] 오류 2
+gmake: *** [Makefile:91: all] 오류 2

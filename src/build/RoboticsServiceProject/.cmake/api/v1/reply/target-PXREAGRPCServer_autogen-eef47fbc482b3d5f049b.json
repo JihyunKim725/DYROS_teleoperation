@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"PXREAGRPCServer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "PXREAGRPCServer_autogen::@2ecb3ad7b44e588889c2",
+	"isGeneratorProvided" : true,
+	"name" : "PXREAGRPCServer_autogen",
+	"paths" : 
+	{
+		"build" : "PXREAGRPCServer",
+		"source" : "PXREAGRPCServer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREAGRPCServer/CMakeFiles/PXREAGRPCServer_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/PXREAGRPCServer/CMakeFiles/PXREAGRPCServer_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

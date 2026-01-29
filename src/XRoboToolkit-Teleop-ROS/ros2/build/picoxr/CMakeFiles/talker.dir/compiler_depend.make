@@ -350,31 +350,6 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /usr/include/c++/11/any \
   _deps/json-src/include/nlohmann/detail/macro_unscope.hpp \
   _deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__builder.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__traits.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__traits.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__traits.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.hpp \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__builder.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__builder.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.hpp \
-  /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/include/PXREARobotSDK.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -477,6 +452,8 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/rcl/rcl/wait.h \
   /opt/ros/humble/include/rcl/rcl/client.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
   /opt/ros/humble/include/rcl/rcl/node.h \
@@ -484,6 +461,7 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/service.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rmw/rmw/message_sequence.h \
   /opt/ros/humble/include/rcl/rcl/timer.h \
   /opt/ros/humble/include/rcl/rcl/time.h \
@@ -538,10 +516,15 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
@@ -768,15 +751,22 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
-  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
-  /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__builder.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__traits.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__traits.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__traits.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__builder.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__builder.hpp \
+  /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -791,6 +781,9 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
+  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
+  /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
@@ -798,31 +791,10 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
-  /usr/include/c++/11/math.h \
-  /usr/include/c++/11/cfloat \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
-  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp
+  /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/include/PXREARobotSDK.h
 
 
-/opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
-
-/usr/include/c++/11/cfloat:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
+/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/include/PXREARobotSDK.h:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp:
 
@@ -848,13 +820,23 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__builder.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__traits.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -938,11 +920,19 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
@@ -1031,8 +1021,6 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -1124,32 +1112,6 @@ CMakeFiles/talker.dir/src/publisher.cpp.o: /home/dyros/pico_ws/src/XRoboToolkit-
 
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/usr/include/c++/11/math.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
-/opt/ros/humble/include/rmw/rmw/impl/config.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
-
-/usr/include/c++/11/cxxabi.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
-
-/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
-
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -1165,8 +1127,6 @@ _deps/json-src/include/nlohmann/detail/string_escape.hpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/11/valarray:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__builder.hpp:
 
 /usr/include/c++/11/bits/forward_list.h:
 
@@ -1272,13 +1232,13 @@ _deps/json-src/include/nlohmann/json.hpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__struct.hpp:
-
 /opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
 /usr/include/asm-generic/errno.h:
 
@@ -1308,9 +1268,7 @@ _deps/json-src/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
 _deps/json-src/include/nlohmann/detail/output/output_adapters.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/usr/include/alloca.h:
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
 /usr/include/c++/11/bits/fs_path.h:
 
@@ -1321,6 +1279,12 @@ _deps/json-src/include/nlohmann/detail/output/output_adapters.hpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.hpp:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -1338,6 +1302,10 @@ _deps/json-src/include/nlohmann/detail/output/output_adapters.hpp:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -1351,8 +1319,6 @@ _deps/json-src/include/nlohmann/detail/output/output_adapters.hpp:
 /usr/include/c++/11/bits/stream_iterator.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
@@ -1392,8 +1358,6 @@ _deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
 /usr/include/linux/errno.h:
 
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__type_support.hpp:
-
 /usr/include/asm-generic/errno-base.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
@@ -1429,8 +1393,6 @@ _deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
 
 /usr/include/c++/11/bits/exception_defines.h:
 
@@ -1546,10 +1508,6 @@ _deps/json-src/include/nlohmann/detail/input/parser.hpp:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
@@ -1563,10 +1521,6 @@ _deps/json-src/include/nlohmann/detail/input/parser.hpp:
 /usr/include/c++/11/ext/numeric_traits.h:
 
 _deps/json-src/include/nlohmann/detail/input/lexer.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__traits.hpp:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -1680,10 +1634,6 @@ _deps/json-src/include/nlohmann/detail/output/serializer.hpp:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
@@ -1720,12 +1670,6 @@ _deps/json-src/include/nlohmann/detail/json_pointer.hpp:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
-/opt/ros/humble/include/rmw/rmw/error_handling.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
-
-_deps/json-src/include/nlohmann/detail/meta/type_traits.hpp:
-
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
@@ -1738,13 +1682,13 @@ _deps/json-src/include/nlohmann/detail/meta/type_traits.hpp:
 
 /usr/include/c++/11/bits/std_thread.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -1771,6 +1715,8 @@ _deps/json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 /usr/include/c++/11/bits/stl_tree.h:
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -1801,8 +1747,6 @@ _deps/json-src/include/nlohmann/byte_container_with_subtype.hpp:
 /usr/include/c++/11/new:
 
 /usr/include/c++/11/bits/sstream.tcc:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/custom.hpp:
 
 /usr/include/c++/11/array:
 
@@ -1870,6 +1814,12 @@ _deps/json-src/include/nlohmann/detail/conversions/to_chars.hpp:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/usr/include/unistd.h:
+
 /usr/include/c++/11/cwchar:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
@@ -1879,6 +1829,8 @@ _deps/json-src/include/nlohmann/detail/conversions/to_chars.hpp:
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
 /usr/include/c++/11/bits/refwrap.h:
 
@@ -1905,8 +1857,6 @@ _deps/json-src/include/nlohmann/detail/iterators/internal_iterator.hpp:
 /usr/include/c++/11/bits/specfun.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
@@ -1955,10 +1905,6 @@ _deps/json-src/include/nlohmann/detail/iterators/internal_iterator.hpp:
 /usr/include/c++/11/bits/gslice.h:
 
 /usr/include/c++/11/bits/gslice_array.h:
-
-/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/usr/include/c++/11/bits/mask_array.h:
 
 /usr/include/c++/11/bits/indirect_array.h:
 
@@ -2040,6 +1986,8 @@ _deps/json-src/include/nlohmann/detail/meta/std_fs.hpp:
 
 _deps/json-src/include/nlohmann/detail/iterators/iter_impl.hpp:
 
+/usr/include/c++/11/cxxabi.h:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -2067,8 +2015,6 @@ _deps/json-src/include/nlohmann/detail/iterators/iter_impl.hpp:
 /usr/include/c++/11/bits/fs_ops.h:
 
 _deps/json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
-/opt/ros/humble/include/tf2/tf2/visibility_control.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
 
@@ -2100,53 +2046,21 @@ _deps/json-src/include/nlohmann/detail/json_custom_base_class.hpp:
 
 _deps/json-src/include/nlohmann/detail/output/binary_writer.hpp:
 
-/usr/include/c++/11/bits/stl_map.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
 /usr/include/c++/11/tuple:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
+/usr/include/c++/11/bits/stl_map.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
 _deps/json-src/include/nlohmann/ordered_map.hpp:
 
 _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/head__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/usr/include/unistd.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__struct.hpp:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/custom__traits.hpp:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/head.hpp:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/controller.hpp:
-
-/opt/ros/humble/include/rcl/rcl/subscription.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/include/xr_msgs/xr_msgs/msg/detail/controller__type_support.hpp:
-
-/opt/ros/humble/include/rcl/rcl/macros.h:
-
-/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/include/PXREARobotSDK.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
@@ -2230,6 +2144,10 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
 
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
 /opt/ros/humble/include/rmw/rmw/localhost.h:
@@ -2242,11 +2160,17 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
+/opt/ros/humble/include/rcl/rcl/macros.h:
+
 /opt/ros/humble/include/rmw/rmw/types.h:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
 /usr/include/c++/11/stdlib.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
@@ -2283,6 +2207,8 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 /usr/include/c++/11/bits/list.tcc:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
@@ -2330,6 +2256,8 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
+/opt/ros/humble/include/rcl/rcl/subscription.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
@@ -2339,6 +2267,8 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
 
 /opt/ros/humble/include/rmw/rmw/event.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
 
@@ -2412,6 +2342,8 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:
@@ -2419,3 +2351,23 @@ _deps/json-src/include/nlohmann/detail/macro_unscope.hpp:
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
+
+_deps/json-src/include/nlohmann/detail/meta/type_traits.hpp:
+
+/opt/ros/humble/include/rmw/rmw/error_handling.h:
+
+/opt/ros/humble/include/rmw/rmw/impl/config.h:
+
+/usr/include/alloca.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:

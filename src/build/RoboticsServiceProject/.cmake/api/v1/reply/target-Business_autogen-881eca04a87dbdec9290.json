@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Business/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CommonUtils::@033c9704e7889ee5190a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DeviceConnectionManager::@83b64a181fc586100370"
+		}
+	],
+	"id" : "Business_autogen::@92c7ca2ea1ef377b6e57",
+	"isGeneratorProvided" : true,
+	"name" : "Business_autogen",
+	"paths" : 
+	{
+		"build" : "Business",
+		"source" : "Business"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/Business/CMakeFiles/Business_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/Business/CMakeFiles/Business_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

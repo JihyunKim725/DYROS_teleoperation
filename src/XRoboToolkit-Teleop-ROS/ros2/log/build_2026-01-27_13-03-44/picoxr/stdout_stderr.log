@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:[m[K In constructor ‘[01m[KXRNode::XRNode()[m[K’:
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+   97 |         [01;31m[Kqos[m[K.best_effort();
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kcos[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/talker.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

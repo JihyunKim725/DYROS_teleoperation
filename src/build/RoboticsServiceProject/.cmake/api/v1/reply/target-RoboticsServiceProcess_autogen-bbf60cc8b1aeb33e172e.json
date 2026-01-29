@@ -1,0 +1,81 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"RoboticsServiceProcess/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CommonUtils::@033c9704e7889ee5190a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DeviceConnectionManager::@83b64a181fc586100370"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Business::@92c7ca2ea1ef377b6e57"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PXREAGRPCServer::@2ecb3ad7b44e588889c2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PXREARobotSDK::@ea805d9dd28bcdb97477"
+		}
+	],
+	"id" : "RoboticsServiceProcess_autogen::@f29a9b348a5fe84928b3",
+	"isGeneratorProvided" : true,
+	"name" : "RoboticsServiceProcess_autogen",
+	"paths" : 
+	{
+		"build" : "RoboticsServiceProcess",
+		"source" : "RoboticsServiceProcess"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/RoboticsServiceProcess/CMakeFiles/RoboticsServiceProcess_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/RoboticsServiceProcess/CMakeFiles/RoboticsServiceProcess_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

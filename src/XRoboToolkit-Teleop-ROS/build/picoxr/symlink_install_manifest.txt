@@ -1,4 +1,5 @@
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib/picoxr/talker
+/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib/picoxr/body_measurement_node
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib/libPXREARobotSDK.so
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/share/ament_index/resource_index/package_run_dependencies/picoxr
 /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/share/ament_index/resource_index/parent_prefix_path/picoxr

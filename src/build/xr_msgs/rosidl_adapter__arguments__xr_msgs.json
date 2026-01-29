@@ -1,0 +1,8 @@
+{
+  "package_name": "xr_msgs",
+  "non_idl_tuples": [
+    "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs:msg/Head.msg",
+    "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs:msg/Custom.msg",
+    "/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs:msg/Controller.msg"
+  ]
+}

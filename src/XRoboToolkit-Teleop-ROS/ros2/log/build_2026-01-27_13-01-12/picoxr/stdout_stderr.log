@@ -1,0 +1,54 @@
+-- OS_PLATFORM: x86_64
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xr_msgs: 0.0.0 (/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/share/xr_msgs/cmake)
+-- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Using the multi-header code from /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/_deps/json-src/include/
+-- Found local SDK at /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK
+-- PICORobotSDK_INCLUDE: /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/include
+-- PICORobotSDK_LIB_PATH: /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64
+-- PICORobotSDK_LIB_NAME: PXREARobotSDK
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:[m[K In constructor ‘[01m[KXRNode::XRNode()[m[K’:
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:96:17:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+   96 |         rclcpp::[01;31m[KQos[m[K qos(100);
+      |                 [01;31m[K^~~[m[K
+      |                 [32m[KQoS[m[K
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+   97 |         [01;31m[Kqos[m[K.best_effort();
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kcos[m[K
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:98:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos_profile[m[K’ was not declared in this scope
+   98 | _ = this->create_publisher<xr_msgs::msg::Custom>("xr_pose", [01;31m[Kqos_profile[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid XRNode::OnPXREAClientCallback(void*, PXREAClientCallbackType, int, void*)[m[K’:
+[01m[K/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/src/publisher.cpp:182:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  182 | ntCallback(void* context, PXREAClientCallbackType type, [01;35m[Kint status[m[K, void* userData)
+      |                                                         [01;35m[K~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/talker.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

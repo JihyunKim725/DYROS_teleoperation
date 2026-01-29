@@ -1,0 +1,263 @@
+{
+	"BUILD_DIR" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/DeviceConnectionManager_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/CMakeLists.txt",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtFeature.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtFeature.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/dyros/Qt/6.7.3/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/DeviceConnectionManager.h",
+			"Mu",
+			"EWIEGA46WW/moc_DeviceConnectionManager.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/DeviceConnectionManager_global.h",
+			"Mu",
+			"EWIEGA46WW/moc_DeviceConnectionManager_global.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/EventHandler/connecteventhandler.h",
+			"Mu",
+			"XCFZGSDA2N/moc_connecteventhandler.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/EventHandler/connecteventhandlerinqt.h",
+			"Mu",
+			"XCFZGSDA2N/moc_connecteventhandlerinqt.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/Manage_global.h",
+			"Mu",
+			"LWH7STRIF6/moc_Manage_global.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/TCPConnectionManage/tcpconnectionmanage.h",
+			"Mu",
+			"7AG7KL6NM2/moc_tcpconnectionmanage.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/TCPConnectionManage/tcpserverworker.h",
+			"Mu",
+			"7AG7KL6NM2/moc_tcpserverworker.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/connectionmanage.h",
+			"Mu",
+			"LWH7STRIF6/moc_connectionmanage.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Model/connectionmodel.h",
+			"Mu",
+			"EXHL2H62WB/moc_connectionmodel.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Model/tcpconnectionmodel.h",
+			"Mu",
+			"EXHL2H62WB/moc_tcpconnectionmodel.cpp",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/utils/utils.h",
+			"Mu",
+			"7HEHEGDA3T/moc_utils.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/DeviceConnectionManager_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/DeviceConnectionManager_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"COMMONUTILS_LIBRARY",
+		"DEVICECONNECTIONSDK_LIBRARY",
+		"DeviceConnectionManager_EXPORTS",
+		"LINUX_x86",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_MESSAGELOGCONTEXT",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"_GLIBCXX_USE_CXX11_ABI=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager",
+		"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager",
+		"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/CommonUtils",
+		"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager",
+		"/home/dyros/Qt/6.7.3/gcc_64/include/QtCore",
+		"/home/dyros/Qt/6.7.3/gcc_64/include",
+		"/home/dyros/Qt/6.7.3/gcc_64/mkspecs/linux-g++",
+		"/home/dyros/Qt/6.7.3/gcc_64/include/QtNetwork",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/DeviceConnectionManager_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 14,
+	"PARSE_CACHE_FILE" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/CMakeFiles/DeviceConnectionManager_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/dyros/Qt/6.7.3/gcc_64/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/CMakeFiles/DeviceConnectionManager_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/DeviceConnectionManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/EventHandler/connecteventhandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/EventHandler/connecteventhandlerinqt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/TCPConnectionManage/tcpconnectionmanage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/TCPConnectionManage/tcpserverworker.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Manage/connectionmanage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Model/connectionmodel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/Model/tcpconnectionmodel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/DeviceConnectionManager/utils/utils.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

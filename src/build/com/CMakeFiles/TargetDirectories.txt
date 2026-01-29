@@ -1,0 +1,3 @@
+/home/dyros/pico_ws/src/build/com/CMakeFiles/COMIntegration.dir
+/home/dyros/pico_ws/src/build/com/CMakeFiles/edit_cache.dir
+/home/dyros/pico_ws/src/build/com/CMakeFiles/rebuild_cache.dir

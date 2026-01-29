@@ -1,0 +1,148 @@
+[0.053s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'picoxr']
+[0.053s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['picoxr'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7918a9e76260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7918a9e75420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7918a9e75420>>)
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.138s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(picoxr) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'picoxr' with type 'ros.ament_cmake' and name 'picoxr'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(xr_msgs) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'xr_msgs' with type 'ros.ament_cmake' and name 'xr_msgs'
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.166s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xr_msgs' in 'xr_msgs'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/dyros/model_ws/install
+[0.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dyros/pico_ws/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'picoxr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'picoxr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr', 'merge_install': False, 'path': '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr', 'symlink_install': False, 'test_result_base': None}
+[0.191s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr'
+[0.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr': AMENT_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:/home/dyros/model_ws/install/p73_controller:/home/dyros/model_ws/install/mjc_ros2:/home/dyros/model_ws/install/br_model:/home/dyros/model_ws/install/br_avatar:/home/dyros/model_ws/install/p73_lib:/home/dyros/model_ws/install/p73_gui:/home/dyros/model_ws/install/p73_msgs:/home/dyros/model_ws/install/p73_description:/home/dyros/pico_ws/install/ros1_bridge:/home/dyros/pico_ws/install/picoxr:/home/dyros/pico_ws/install/xr_msgs:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib:/home/dyros/model_ws/install/br_model/lib:/home/dyros/model_ws/install/br_avatar/lib:/home/dyros/model_ws/install/p73_lib/lib:/home/dyros/model_ws/install/p73_gui/lib:/home/dyros/model_ws/install/p73_msgs/lib:/home/dyros/pico_ws/install/picoxr/lib:/home/dyros/pico_ws/install/xr_msgs/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs/lib:/home/dyros/Qt/6.7.3/gcc_64/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64 /usr/bin/cmake --build /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr -- -j20 -l20
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr' returned '0': AMENT_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:/home/dyros/model_ws/install/p73_controller:/home/dyros/model_ws/install/mjc_ros2:/home/dyros/model_ws/install/br_model:/home/dyros/model_ws/install/br_avatar:/home/dyros/model_ws/install/p73_lib:/home/dyros/model_ws/install/p73_gui:/home/dyros/model_ws/install/p73_msgs:/home/dyros/model_ws/install/p73_description:/home/dyros/pico_ws/install/ros1_bridge:/home/dyros/pico_ws/install/picoxr:/home/dyros/pico_ws/install/xr_msgs:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib:/home/dyros/model_ws/install/br_model/lib:/home/dyros/model_ws/install/br_avatar/lib:/home/dyros/model_ws/install/p73_lib/lib:/home/dyros/model_ws/install/p73_gui/lib:/home/dyros/model_ws/install/p73_msgs/lib:/home/dyros/pico_ws/install/picoxr/lib:/home/dyros/pico_ws/install/xr_msgs/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs/lib:/home/dyros/Qt/6.7.3/gcc_64/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64 /usr/bin/cmake --build /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr -- -j20 -l20
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr': AMENT_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:/home/dyros/model_ws/install/p73_controller:/home/dyros/model_ws/install/mjc_ros2:/home/dyros/model_ws/install/br_model:/home/dyros/model_ws/install/br_avatar:/home/dyros/model_ws/install/p73_lib:/home/dyros/model_ws/install/p73_gui:/home/dyros/model_ws/install/p73_msgs:/home/dyros/model_ws/install/p73_description:/home/dyros/pico_ws/install/ros1_bridge:/home/dyros/pico_ws/install/picoxr:/home/dyros/pico_ws/install/xr_msgs:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib:/home/dyros/model_ws/install/br_model/lib:/home/dyros/model_ws/install/br_avatar/lib:/home/dyros/model_ws/install/p73_lib/lib:/home/dyros/model_ws/install/p73_gui/lib:/home/dyros/model_ws/install/p73_msgs/lib:/home/dyros/pico_ws/install/picoxr/lib:/home/dyros/pico_ws/install/xr_msgs/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs/lib:/home/dyros/Qt/6.7.3/gcc_64/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64 /usr/bin/cmake --install /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr
+[0.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(picoxr)
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr' returned '0': AMENT_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs:/home/dyros/model_ws/install/p73_controller:/home/dyros/model_ws/install/mjc_ros2:/home/dyros/model_ws/install/br_model:/home/dyros/model_ws/install/br_avatar:/home/dyros/model_ws/install/p73_lib:/home/dyros/model_ws/install/p73_gui:/home/dyros/model_ws/install/p73_msgs:/home/dyros/model_ws/install/p73_description:/home/dyros/pico_ws/install/ros1_bridge:/home/dyros/pico_ws/install/picoxr:/home/dyros/pico_ws/install/xr_msgs:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/xr_msgs/lib:/home/dyros/model_ws/install/br_model/lib:/home/dyros/model_ws/install/br_avatar/lib:/home/dyros/model_ws/install/p73_lib/lib:/home/dyros/model_ws/install/p73_gui/lib:/home/dyros/model_ws/install/p73_msgs/lib:/home/dyros/pico_ws/install/picoxr/lib:/home/dyros/pico_ws/install/xr_msgs/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/picoxr/lib:/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/install/xr_msgs/lib:/home/dyros/Qt/6.7.3/gcc_64/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.7/lib64:/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64 /usr/bin/cmake --install /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr' for CMake module files
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr' for CMake config files
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('picoxr', 'cmake_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.sh'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('picoxr', 'ld_library_path_lib')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.sh'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/bin'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/pkgconfig/picoxr.pc'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/python3.10/site-packages'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/bin'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.bash'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.zsh'
+[0.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/colcon-core/packages/picoxr)
+[0.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(picoxr)
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr' for CMake module files
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr' for CMake config files
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('picoxr', 'cmake_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/cmake_prefix_path.sh'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('picoxr', 'ld_library_path_lib')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/hook/ld_library_path_lib.sh'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/bin'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/pkgconfig/picoxr.pc'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/lib/python3.10/site-packages'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/bin'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.ps1'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.bash'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/picoxr/package.zsh'
+[0.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/picoxr/share/colcon-core/packages/picoxr)
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.327s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.331s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.337s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/local_setup.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/_local_setup_util_ps1.py'
+[0.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/setup.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/local_setup.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/_local_setup_util_sh.py'
+[0.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/setup.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/local_setup.bash'
+[0.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/setup.bash'
+[0.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/local_setup.zsh'
+[0.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/install/setup.zsh'

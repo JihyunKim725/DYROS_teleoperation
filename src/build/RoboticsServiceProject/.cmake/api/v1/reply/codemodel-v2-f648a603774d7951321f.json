@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CommonUtils",
+					"jsonFile" : "directory-CommonUtils-e34a0e295d5f4f14ea53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CommonUtils",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "DeviceConnectionManager",
+					"jsonFile" : "directory-DeviceConnectionManager-85b69024367c597120ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "DeviceConnectionManager",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "Business",
+					"jsonFile" : "directory-Business-b127c5a775e94a90cba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Business",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "PXREAGRPCServer",
+					"jsonFile" : "directory-PXREAGRPCServer-f26db4318ec88b09c0ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "PXREAGRPCServer",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "PXREARobotSDK",
+					"jsonFile" : "directory-PXREARobotSDK-7884e56f6ca87d09fe46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "PXREARobotSDK",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "RoboticsServiceProcess",
+					"jsonFile" : "directory-RoboticsServiceProcess-15f7b8484accaef737e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "RoboticsServiceProcess",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RoboticsServiceProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CommonUtils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DeviceConnectionManager",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Business",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "PXREAGRPCServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "PXREARobotSDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "RoboticsServiceProcess",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Business::@92c7ca2ea1ef377b6e57",
+					"jsonFile" : "target-Business-8b8f0f8b0bd1c3663f5f.json",
+					"name" : "Business",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Business_autogen::@92c7ca2ea1ef377b6e57",
+					"jsonFile" : "target-Business_autogen-881eca04a87dbdec9290.json",
+					"name" : "Business_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CommonUtils::@033c9704e7889ee5190a",
+					"jsonFile" : "target-CommonUtils-8787eda89c5c9531eccb.json",
+					"name" : "CommonUtils",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CommonUtils_autogen::@033c9704e7889ee5190a",
+					"jsonFile" : "target-CommonUtils_autogen-42dba6818827be8796ab.json",
+					"name" : "CommonUtils_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DeviceConnectionManager::@83b64a181fc586100370",
+					"jsonFile" : "target-DeviceConnectionManager-6c4ae5d36cf1cb3e969d.json",
+					"name" : "DeviceConnectionManager",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DeviceConnectionManager_autogen::@83b64a181fc586100370",
+					"jsonFile" : "target-DeviceConnectionManager_autogen-7130a979812f64a77135.json",
+					"name" : "DeviceConnectionManager_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PXREAGRPCServer::@2ecb3ad7b44e588889c2",
+					"jsonFile" : "target-PXREAGRPCServer-3ea3bb866fe7a77b9a21.json",
+					"name" : "PXREAGRPCServer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PXREAGRPCServer_autogen::@2ecb3ad7b44e588889c2",
+					"jsonFile" : "target-PXREAGRPCServer_autogen-eef47fbc482b3d5f049b.json",
+					"name" : "PXREAGRPCServer_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PXREARobotSDK::@ea805d9dd28bcdb97477",
+					"jsonFile" : "target-PXREARobotSDK-7218335766e87fd45864.json",
+					"name" : "PXREARobotSDK",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PXREARobotSDK_autogen::@ea805d9dd28bcdb97477",
+					"jsonFile" : "target-PXREARobotSDK_autogen-d5fa13b7cf9fed7c5e57.json",
+					"name" : "PXREARobotSDK_autogen",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RoboticsServiceProcess::@f29a9b348a5fe84928b3",
+					"jsonFile" : "target-RoboticsServiceProcess-cf08d85f495b659277df.json",
+					"name" : "RoboticsServiceProcess",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RoboticsServiceProcess_autogen::@f29a9b348a5fe84928b3",
+					"jsonFile" : "target-RoboticsServiceProcess_autogen-bbf60cc8b1aeb33e172e.json",
+					"name" : "RoboticsServiceProcess_autogen",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject",
+		"source" : "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xr_msgs/msg/Controller.msg
+// generated code does not contain a copyright notice
+
+
+module xr_msgs {
+  module msg {
+    typedef float float__7[7];
+    struct Controller {
+      float axis_x;
+
+      float axis_y;
+
+      boolean axis_click;
+
+      float gripper;
+
+      float trigger;
+
+      boolean primary_button;
+
+      boolean secondary_button;
+
+      boolean menu_button;
+
+      float__7 pose;
+
+      int32 status;
+    };
+  };
+};

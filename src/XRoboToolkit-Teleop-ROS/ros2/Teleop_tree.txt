@@ -1,0 +1,928 @@
+.
+├── Teleop_tree.txt
+├── build
+│   ├── COLCON_IGNORE
+│   ├── picoxr
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       ├── a.out
+│   │   │   │       └── tmp
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── Makefile2
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── picoxr_uninstall.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   └── progress.make
+│   │   │   ├── progress.marks
+│   │   │   ├── talker.dir
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.internal
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── depend.make
+│   │   │   │   ├── flags.make
+│   │   │   │   ├── link.txt
+│   │   │   │   ├── progress.make
+│   │   │   │   └── src
+│   │   │   │       ├── publisher.cpp.o
+│   │   │   │       └── publisher.cpp.o.d
+│   │   │   └── uninstall.dir
+│   │   │       ├── DependInfo.cmake
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       └── progress.make
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── Makefile
+│   │   ├── _deps
+│   │   │   ├── json-build
+│   │   │   │   ├── CMakeFiles
+│   │   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   │   └── progress.marks
+│   │   │   │   ├── CTestTestfile.cmake
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── cmake_install.cmake
+│   │   │   │   ├── nlohmann_json.pc
+│   │   │   │   ├── nlohmann_jsonConfig.cmake
+│   │   │   │   └── nlohmann_jsonConfigVersion.cmake
+│   │   │   ├── json-src
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── LICENSE.MIT
+│   │   │   │   ├── cmake
+│   │   │   │   │   ├── config.cmake.in
+│   │   │   │   │   ├── nlohmann_jsonConfigVersion.cmake.in
+│   │   │   │   │   └── pkg-config.pc.in
+│   │   │   │   ├── include
+│   │   │   │   │   └── nlohmann
+│   │   │   │   │       ├── adl_serializer.hpp
+│   │   │   │   │       ├── byte_container_with_subtype.hpp
+│   │   │   │   │       ├── detail
+│   │   │   │   │       │   ├── abi_macros.hpp
+│   │   │   │   │       │   ├── conversions
+│   │   │   │   │       │   │   ├── from_json.hpp
+│   │   │   │   │       │   │   ├── to_chars.hpp
+│   │   │   │   │       │   │   └── to_json.hpp
+│   │   │   │   │       │   ├── exceptions.hpp
+│   │   │   │   │       │   ├── hash.hpp
+│   │   │   │   │       │   ├── input
+│   │   │   │   │       │   │   ├── binary_reader.hpp
+│   │   │   │   │       │   │   ├── input_adapters.hpp
+│   │   │   │   │       │   │   ├── json_sax.hpp
+│   │   │   │   │       │   │   ├── lexer.hpp
+│   │   │   │   │       │   │   ├── parser.hpp
+│   │   │   │   │       │   │   └── position_t.hpp
+│   │   │   │   │       │   ├── iterators
+│   │   │   │   │       │   │   ├── internal_iterator.hpp
+│   │   │   │   │       │   │   ├── iter_impl.hpp
+│   │   │   │   │       │   │   ├── iteration_proxy.hpp
+│   │   │   │   │       │   │   ├── iterator_traits.hpp
+│   │   │   │   │       │   │   ├── json_reverse_iterator.hpp
+│   │   │   │   │       │   │   └── primitive_iterator.hpp
+│   │   │   │   │       │   ├── json_custom_base_class.hpp
+│   │   │   │   │       │   ├── json_pointer.hpp
+│   │   │   │   │       │   ├── json_ref.hpp
+│   │   │   │   │       │   ├── macro_scope.hpp
+│   │   │   │   │       │   ├── macro_unscope.hpp
+│   │   │   │   │       │   ├── meta
+│   │   │   │   │       │   │   ├── call_std
+│   │   │   │   │       │   │   │   ├── begin.hpp
+│   │   │   │   │       │   │   │   └── end.hpp
+│   │   │   │   │       │   │   ├── cpp_future.hpp
+│   │   │   │   │       │   │   ├── detected.hpp
+│   │   │   │   │       │   │   ├── identity_tag.hpp
+│   │   │   │   │       │   │   ├── is_sax.hpp
+│   │   │   │   │       │   │   ├── std_fs.hpp
+│   │   │   │   │       │   │   ├── type_traits.hpp
+│   │   │   │   │       │   │   └── void_t.hpp
+│   │   │   │   │       │   ├── output
+│   │   │   │   │       │   │   ├── binary_writer.hpp
+│   │   │   │   │       │   │   ├── output_adapters.hpp
+│   │   │   │   │       │   │   └── serializer.hpp
+│   │   │   │   │       │   ├── string_concat.hpp
+│   │   │   │   │       │   ├── string_escape.hpp
+│   │   │   │   │       │   └── value_t.hpp
+│   │   │   │   │       ├── json.hpp
+│   │   │   │   │       ├── json_fwd.hpp
+│   │   │   │   │       ├── ordered_map.hpp
+│   │   │   │   │       └── thirdparty
+│   │   │   │   │           └── hedley
+│   │   │   │   │               ├── hedley.hpp
+│   │   │   │   │               └── hedley_undef.hpp
+│   │   │   │   ├── nlohmann_json.natvis
+│   │   │   │   └── single_include
+│   │   │   │       └── nlohmann
+│   │   │   │           ├── json.hpp
+│   │   │   │           └── json_fwd.hpp
+│   │   │   └── json-subbuild
+│   │   │       ├── CMakeCache.txt
+│   │   │       ├── CMakeFiles
+│   │   │       │   ├── 3.22.1
+│   │   │       │   │   └── CMakeSystem.cmake
+│   │   │       │   ├── CMakeDirectoryInformation.cmake
+│   │   │       │   ├── CMakeOutput.log
+│   │   │       │   ├── CMakeRuleHashes.txt
+│   │   │       │   ├── Makefile.cmake
+│   │   │       │   ├── Makefile2
+│   │   │       │   ├── TargetDirectories.txt
+│   │   │       │   ├── cmake.check_cache
+│   │   │       │   ├── json-populate-complete
+│   │   │       │   ├── json-populate.dir
+│   │   │       │   │   ├── DependInfo.cmake
+│   │   │       │   │   ├── Labels.json
+│   │   │       │   │   ├── Labels.txt
+│   │   │       │   │   ├── build.make
+│   │   │       │   │   ├── cmake_clean.cmake
+│   │   │       │   │   ├── compiler_depend.make
+│   │   │       │   │   ├── compiler_depend.ts
+│   │   │       │   │   └── progress.make
+│   │   │       │   └── progress.marks
+│   │   │       ├── CMakeLists.txt
+│   │   │       ├── Makefile
+│   │   │       ├── cmake_install.cmake
+│   │   │       └── json-populate-prefix
+│   │   │           ├── src
+│   │   │           │   ├── json-populate-stamp
+│   │   │           │   │   ├── download-json-populate.cmake
+│   │   │           │   │   ├── extract-json-populate.cmake
+│   │   │           │   │   ├── json-populate-build
+│   │   │           │   │   ├── json-populate-configure
+│   │   │           │   │   ├── json-populate-done
+│   │   │           │   │   ├── json-populate-download
+│   │   │           │   │   ├── json-populate-install
+│   │   │           │   │   ├── json-populate-mkdir
+│   │   │           │   │   ├── json-populate-patch
+│   │   │           │   │   ├── json-populate-test
+│   │   │           │   │   ├── json-populate-update
+│   │   │           │   │   ├── json-populate-urlinfo.txt
+│   │   │           │   │   └── verify-json-populate.cmake
+│   │   │           │   └── json.tar.xz
+│   │   │           └── tmp
+│   │   │               ├── json-populate-cfgcmd.txt
+│   │   │               └── json-populate-cfgcmd.txt.in
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── picoxrConfig-version.cmake
+│   │   │   ├── picoxrConfig.cmake
+│   │   │   └── stamps
+│   │   │       ├── ament_prefix_path.sh.stamp
+│   │   │       ├── nameConfig-version.cmake.in.stamp
+│   │   │       ├── nameConfig.cmake.in.stamp
+│   │   │       ├── package.xml.stamp
+│   │   │       ├── package_xml_2_cmake.py.stamp
+│   │   │       ├── path.sh.stamp
+│   │   │       └── templates_2_cmake.py.stamp
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── picoxr
+│   │   │               ├── packages
+│   │   │               │   └── picoxr
+│   │   │               └── parent_prefix_path
+│   │   │                   └── picoxr
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_symlink_install
+│   │   │   ├── ament_cmake_symlink_install.cmake
+│   │   │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│   │   ├── ament_cmake_symlink_install_targets_0_.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_cppcheck
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_uncrustify
+│   │   ├── ament_xmllint
+│   │   ├── cmake_args.last
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── install_manifest.txt
+│   │   ├── symlink_install_manifest.txt
+│   │   └── talker
+│   └── xr_msgs
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.22.1
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   ├── a.out
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       ├── a.out
+│       │   │       └── tmp
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeOutput.log
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeTmp
+│       │   ├── Export
+│       │   │   └── share
+│       │   │       └── xr_msgs
+│       │   │           └── cmake
+│       │   │               ├── export_xr_msgs__rosidl_generator_cExport-noconfig.cmake
+│       │   │               ├── export_xr_msgs__rosidl_generator_cExport.cmake
+│       │   │               ├── export_xr_msgs__rosidl_generator_cppExport.cmake
+│       │   │               ├── export_xr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+│       │   │               ├── export_xr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+│       │   │               ├── export_xr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+│       │   │               ├── export_xr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_cExport.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_cppExport.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_introspection_cExport.cmake
+│       │   │               ├── xr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+│       │   │               └── xr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+│       │   ├── Makefile.cmake
+│       │   ├── Makefile2
+│       │   ├── TargetDirectories.txt
+│       │   ├── cmake.check_cache
+│       │   ├── progress.marks
+│       │   ├── uninstall.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   └── progress.make
+│       │   ├── xr_msgs.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   └── progress.make
+│       │   ├── xr_msgs__cpp.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   └── progress.make
+│       │   ├── xr_msgs__rosidl_generator_c.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_generator_c
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               └── detail
+│       │   │                   ├── controller__functions.c.o
+│       │   │                   ├── controller__functions.c.o.d
+│       │   │                   ├── custom__functions.c.o
+│       │   │                   ├── custom__functions.c.o.d
+│       │   │                   ├── head__functions.c.o
+│       │   │                   └── head__functions.c.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_c.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_c
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               ├── controller__type_support.cpp.o
+│       │   │               ├── controller__type_support.cpp.o.d
+│       │   │               ├── custom__type_support.cpp.o
+│       │   │               ├── custom__type_support.cpp.o.d
+│       │   │               ├── head__type_support.cpp.o
+│       │   │               └── head__type_support.cpp.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_cpp.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_cpp
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               ├── controller__type_support.cpp.o
+│       │   │               ├── controller__type_support.cpp.o.d
+│       │   │               ├── custom__type_support.cpp.o
+│       │   │               ├── custom__type_support.cpp.o.d
+│       │   │               ├── head__type_support.cpp.o
+│       │   │               └── head__type_support.cpp.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_fastrtps_c.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_fastrtps_c
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               └── detail
+│       │   │                   ├── controller__type_support_c.cpp.o
+│       │   │                   ├── controller__type_support_c.cpp.o.d
+│       │   │                   ├── custom__type_support_c.cpp.o
+│       │   │                   ├── custom__type_support_c.cpp.o.d
+│       │   │                   ├── head__type_support_c.cpp.o
+│       │   │                   └── head__type_support_c.cpp.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_fastrtps_cpp.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_fastrtps_cpp
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               └── detail
+│       │   │                   └── dds_fastrtps
+│       │   │                       ├── controller__type_support.cpp.o
+│       │   │                       ├── controller__type_support.cpp.o.d
+│       │   │                       ├── custom__type_support.cpp.o
+│       │   │                       ├── custom__type_support.cpp.o.d
+│       │   │                       ├── head__type_support.cpp.o
+│       │   │                       └── head__type_support.cpp.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_introspection_c.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_introspection_c
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               └── detail
+│       │   │                   ├── controller__type_support.c.o
+│       │   │                   ├── controller__type_support.c.o.d
+│       │   │                   ├── custom__type_support.c.o
+│       │   │                   ├── custom__type_support.c.o.d
+│       │   │                   ├── head__type_support.c.o
+│       │   │                   └── head__type_support.c.o.d
+│       │   ├── xr_msgs__rosidl_typesupport_introspection_cpp.dir
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── depend.make
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── rosidl_typesupport_introspection_cpp
+│       │   │       └── xr_msgs
+│       │   │           └── msg
+│       │   │               └── detail
+│       │   │                   ├── controller__type_support.cpp.o
+│       │   │                   ├── controller__type_support.cpp.o.d
+│       │   │                   ├── custom__type_support.cpp.o
+│       │   │                   ├── custom__type_support.cpp.o.d
+│       │   │                   ├── head__type_support.cpp.o
+│       │   │                   └── head__type_support.cpp.o.d
+│       │   └── xr_msgs_uninstall.dir
+│       │       ├── DependInfo.cmake
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       └── progress.make
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── Makefile
+│       ├── ament_cmake_core
+│       │   ├── package.cmake
+│       │   ├── stamps
+│       │   │   ├── Controller.msg.stamp
+│       │   │   ├── Custom.msg.stamp
+│       │   │   ├── Head.msg.stamp
+│       │   │   ├── ament_cmake_export_dependencies-extras.cmake.stamp
+│       │   │   ├── ament_cmake_export_include_directories-extras.cmake.stamp
+│       │   │   ├── ament_cmake_export_libraries-extras.cmake.stamp
+│       │   │   ├── ament_cmake_export_targets-extras.cmake.stamp
+│       │   │   ├── ament_prefix_path.sh.stamp
+│       │   │   ├── library_path.sh.stamp
+│       │   │   ├── nameConfig-version.cmake.in.stamp
+│       │   │   ├── nameConfig.cmake.in.stamp
+│       │   │   ├── package.xml.stamp
+│       │   │   ├── package_xml_2_cmake.py.stamp
+│       │   │   ├── path.sh.stamp
+│       │   │   ├── rosidl_cmake-extras.cmake.stamp
+│       │   │   ├── rosidl_cmake_export_typesupport_libraries-extras.cmake.stamp
+│       │   │   ├── rosidl_cmake_export_typesupport_targets-extras.cmake.stamp
+│       │   │   └── templates_2_cmake.py.stamp
+│       │   ├── xr_msgsConfig-version.cmake
+│       │   └── xr_msgsConfig.cmake
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── library_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_export_dependencies
+│       │   └── ament_cmake_export_dependencies-extras.cmake
+│       ├── ament_cmake_export_include_directories
+│       │   └── ament_cmake_export_include_directories-extras.cmake
+│       ├── ament_cmake_export_libraries
+│       │   └── ament_cmake_export_libraries-extras.cmake
+│       ├── ament_cmake_export_targets
+│       │   └── ament_cmake_export_targets-extras.cmake
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── xr_msgs
+│       │               ├── packages
+│       │               │   └── xr_msgs
+│       │               ├── parent_prefix_path
+│       │               │   └── xr_msgs
+│       │               └── rosidl_interfaces
+│       │                   └── xr_msgs
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_symlink_install
+│       │   ├── ament_cmake_symlink_install.cmake
+│       │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── cmake_args.last
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── install_manifest.txt
+│       ├── libxr_msgs__rosidl_generator_c.so
+│       ├── libxr_msgs__rosidl_typesupport_c.so
+│       ├── libxr_msgs__rosidl_typesupport_cpp.so
+│       ├── libxr_msgs__rosidl_typesupport_fastrtps_c.so
+│       ├── libxr_msgs__rosidl_typesupport_fastrtps_cpp.so
+│       ├── libxr_msgs__rosidl_typesupport_introspection_c.so
+│       ├── libxr_msgs__rosidl_typesupport_introspection_cpp.so
+│       ├── rosidl_adapter
+│       │   ├── xr_msgs
+│       │   │   └── msg
+│       │   │       ├── Controller.idl
+│       │   │       ├── Custom.idl
+│       │   │       └── Head.idl
+│       │   └── xr_msgs.idls
+│       ├── rosidl_adapter__arguments__xr_msgs.json
+│       ├── rosidl_cmake
+│       │   ├── rosidl_cmake-extras.cmake
+│       │   ├── rosidl_cmake_export_typesupport_libraries-extras.cmake
+│       │   └── rosidl_cmake_export_typesupport_targets-extras.cmake
+│       ├── rosidl_generator_c
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── controller.h
+│       │           ├── custom.h
+│       │           ├── detail
+│       │           │   ├── controller__functions.c
+│       │           │   ├── controller__functions.h
+│       │           │   ├── controller__struct.h
+│       │           │   ├── controller__type_support.h
+│       │           │   ├── custom__functions.c
+│       │           │   ├── custom__functions.h
+│       │           │   ├── custom__struct.h
+│       │           │   ├── custom__type_support.h
+│       │           │   ├── head__functions.c
+│       │           │   ├── head__functions.h
+│       │           │   ├── head__struct.h
+│       │           │   └── head__type_support.h
+│       │           ├── head.h
+│       │           └── rosidl_generator_c__visibility_control.h
+│       ├── rosidl_generator_c__arguments.json
+│       ├── rosidl_generator_cpp
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── controller.hpp
+│       │           ├── custom.hpp
+│       │           ├── detail
+│       │           │   ├── controller__builder.hpp
+│       │           │   ├── controller__struct.hpp
+│       │           │   ├── controller__traits.hpp
+│       │           │   ├── controller__type_support.hpp
+│       │           │   ├── custom__builder.hpp
+│       │           │   ├── custom__struct.hpp
+│       │           │   ├── custom__traits.hpp
+│       │           │   ├── custom__type_support.hpp
+│       │           │   ├── head__builder.hpp
+│       │           │   ├── head__struct.hpp
+│       │           │   ├── head__traits.hpp
+│       │           │   └── head__type_support.hpp
+│       │           ├── head.hpp
+│       │           └── rosidl_generator_cpp__visibility_control.hpp
+│       ├── rosidl_generator_cpp__arguments.json
+│       ├── rosidl_typesupport_c
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── controller__type_support.cpp
+│       │           ├── custom__type_support.cpp
+│       │           └── head__type_support.cpp
+│       ├── rosidl_typesupport_c__arguments.json
+│       ├── rosidl_typesupport_cpp
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── controller__type_support.cpp
+│       │           ├── custom__type_support.cpp
+│       │           └── head__type_support.cpp
+│       ├── rosidl_typesupport_cpp__arguments.json
+│       ├── rosidl_typesupport_fastrtps_c
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── detail
+│       │           │   ├── controller__rosidl_typesupport_fastrtps_c.h
+│       │           │   ├── controller__type_support_c.cpp
+│       │           │   ├── custom__rosidl_typesupport_fastrtps_c.h
+│       │           │   ├── custom__type_support_c.cpp
+│       │           │   ├── head__rosidl_typesupport_fastrtps_c.h
+│       │           │   └── head__type_support_c.cpp
+│       │           └── rosidl_typesupport_fastrtps_c__visibility_control.h
+│       ├── rosidl_typesupport_fastrtps_c__arguments.json
+│       ├── rosidl_typesupport_fastrtps_cpp
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── detail
+│       │           │   ├── controller__rosidl_typesupport_fastrtps_cpp.hpp
+│       │           │   ├── custom__rosidl_typesupport_fastrtps_cpp.hpp
+│       │           │   ├── dds_fastrtps
+│       │           │   │   ├── controller__type_support.cpp
+│       │           │   │   ├── custom__type_support.cpp
+│       │           │   │   └── head__type_support.cpp
+│       │           │   └── head__rosidl_typesupport_fastrtps_cpp.hpp
+│       │           └── rosidl_typesupport_fastrtps_cpp__visibility_control.h
+│       ├── rosidl_typesupport_fastrtps_cpp__arguments.json
+│       ├── rosidl_typesupport_introspection_c
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           ├── detail
+│       │           │   ├── controller__rosidl_typesupport_introspection_c.h
+│       │           │   ├── controller__type_support.c
+│       │           │   ├── custom__rosidl_typesupport_introspection_c.h
+│       │           │   ├── custom__type_support.c
+│       │           │   ├── head__rosidl_typesupport_introspection_c.h
+│       │           │   └── head__type_support.c
+│       │           └── rosidl_typesupport_introspection_c__visibility_control.h
+│       ├── rosidl_typesupport_introspection_c__arguments.json
+│       ├── rosidl_typesupport_introspection_cpp
+│       │   └── xr_msgs
+│       │       └── msg
+│       │           └── detail
+│       │               ├── controller__rosidl_typesupport_introspection_cpp.hpp
+│       │               ├── controller__type_support.cpp
+│       │               ├── custom__rosidl_typesupport_introspection_cpp.hpp
+│       │               ├── custom__type_support.cpp
+│       │               ├── head__rosidl_typesupport_introspection_cpp.hpp
+│       │               └── head__type_support.cpp
+│       ├── rosidl_typesupport_introspection_cpp__arguments.json
+│       └── symlink_install_manifest.txt
+├── install
+│   ├── COLCON_IGNORE
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── local_setup.zsh
+│   ├── picoxr
+│   │   ├── lib
+│   │   │   ├── libPXREARobotSDK.so -> /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64/libPXREARobotSDK.so
+│   │   │   └── picoxr
+│   │   │       └── talker -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/talker
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── picoxr -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/picoxr
+│   │       │       ├── packages
+│   │       │       │   └── picoxr -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_index/share/ament_index/resource_index/packages/picoxr
+│   │       │       └── parent_prefix_path
+│   │       │           └── picoxr -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/picoxr
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── picoxr
+│   │       └── picoxr
+│   │           ├── cmake
+│   │           │   ├── picoxrConfig-version.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_core/picoxrConfig-version.cmake
+│   │           │   └── picoxrConfig.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_core/picoxrConfig.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   ├── cmake_prefix_path.sh
+│   │           │   ├── ld_library_path_lib.dsv
+│   │           │   ├── ld_library_path_lib.ps1
+│   │           │   └── ld_library_path_lib.sh
+│   │           ├── local_setup.bash -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/picoxr/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/picoxr/package.xml
+│   │           └── package.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   ├── setup.zsh
+│   └── xr_msgs
+│       ├── include
+│       │   └── xr_msgs
+│       │       └── xr_msgs
+│       │           └── msg
+│       │               ├── controller.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/controller.h
+│       │               ├── controller.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/controller.hpp
+│       │               ├── custom.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/custom.h
+│       │               ├── custom.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/custom.hpp
+│       │               ├── detail
+│       │               │   ├── controller__builder.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/controller__builder.hpp
+│       │               │   ├── controller__functions.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/controller__functions.h
+│       │               │   ├── controller__rosidl_typesupport_fastrtps_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+│       │               │   ├── controller__rosidl_typesupport_fastrtps_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+│       │               │   ├── controller__rosidl_typesupport_introspection_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/controller__rosidl_typesupport_introspection_c.h
+│       │               │   ├── controller__rosidl_typesupport_introspection_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+│       │               │   ├── controller__struct.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/controller__struct.h
+│       │               │   ├── controller__struct.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/controller__struct.hpp
+│       │               │   ├── controller__traits.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/controller__traits.hpp
+│       │               │   ├── controller__type_support.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/controller__type_support.h
+│       │               │   ├── controller__type_support.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/controller__type_support.hpp
+│       │               │   ├── custom__builder.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/custom__builder.hpp
+│       │               │   ├── custom__functions.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/custom__functions.h
+│       │               │   ├── custom__rosidl_typesupport_fastrtps_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/custom__rosidl_typesupport_fastrtps_c.h
+│       │               │   ├── custom__rosidl_typesupport_fastrtps_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp
+│       │               │   ├── custom__rosidl_typesupport_introspection_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/custom__rosidl_typesupport_introspection_c.h
+│       │               │   ├── custom__rosidl_typesupport_introspection_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/custom__rosidl_typesupport_introspection_cpp.hpp
+│       │               │   ├── custom__struct.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/custom__struct.h
+│       │               │   ├── custom__struct.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/custom__struct.hpp
+│       │               │   ├── custom__traits.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/custom__traits.hpp
+│       │               │   ├── custom__type_support.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/custom__type_support.h
+│       │               │   ├── custom__type_support.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/custom__type_support.hpp
+│       │               │   ├── head__builder.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/head__builder.hpp
+│       │               │   ├── head__functions.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/head__functions.h
+│       │               │   ├── head__rosidl_typesupport_fastrtps_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/head__rosidl_typesupport_fastrtps_c.h
+│       │               │   ├── head__rosidl_typesupport_fastrtps_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/detail/head__rosidl_typesupport_fastrtps_cpp.hpp
+│       │               │   ├── head__rosidl_typesupport_introspection_c.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_c/xr_msgs/msg/detail/head__rosidl_typesupport_introspection_c.h
+│       │               │   ├── head__rosidl_typesupport_introspection_cpp.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_cpp/xr_msgs/msg/detail/head__rosidl_typesupport_introspection_cpp.hpp
+│       │               │   ├── head__struct.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/head__struct.h
+│       │               │   ├── head__struct.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/head__struct.hpp
+│       │               │   ├── head__traits.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/head__traits.hpp
+│       │               │   ├── head__type_support.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/detail/head__type_support.h
+│       │               │   └── head__type_support.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/detail/head__type_support.hpp
+│       │               ├── head.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/head.h
+│       │               ├── head.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/head.hpp
+│       │               ├── rosidl_generator_c__visibility_control.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_c/xr_msgs/msg/rosidl_generator_c__visibility_control.h
+│       │               ├── rosidl_generator_cpp__visibility_control.hpp -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_generator_cpp/xr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+│       │               ├── rosidl_typesupport_fastrtps_c__visibility_control.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_c/xr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+│       │               ├── rosidl_typesupport_fastrtps_cpp__visibility_control.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_cpp/xr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+│       │               └── rosidl_typesupport_introspection_c__visibility_control.h -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_introspection_c/xr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+│       ├── lib
+│       │   ├── libxr_msgs__rosidl_generator_c.so
+│       │   ├── libxr_msgs__rosidl_typesupport_c.so
+│       │   ├── libxr_msgs__rosidl_typesupport_cpp.so
+│       │   ├── libxr_msgs__rosidl_typesupport_fastrtps_c.so
+│       │   ├── libxr_msgs__rosidl_typesupport_fastrtps_cpp.so
+│       │   ├── libxr_msgs__rosidl_typesupport_introspection_c.so
+│       │   └── libxr_msgs__rosidl_typesupport_introspection_cpp.so
+│       └── share
+│           ├── ament_index
+│           │   └── resource_index
+│           │       ├── package_run_dependencies
+│           │       │   └── xr_msgs -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xr_msgs
+│           │       ├── packages
+│           │       │   └── xr_msgs -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_index/share/ament_index/resource_index/packages/xr_msgs
+│           │       ├── parent_prefix_path
+│           │       │   └── xr_msgs -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xr_msgs
+│           │       └── rosidl_interfaces
+│           │           └── xr_msgs -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/xr_msgs
+│           ├── colcon-core
+│           │   └── packages
+│           │       └── xr_msgs
+│           └── xr_msgs
+│               ├── cmake
+│               │   ├── ament_cmake_export_dependencies-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+│               │   ├── ament_cmake_export_include_directories-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+│               │   ├── ament_cmake_export_libraries-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+│               │   ├── ament_cmake_export_targets-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake
+│               │   ├── export_xr_msgs__rosidl_generator_cExport-noconfig.cmake
+│               │   ├── export_xr_msgs__rosidl_generator_cExport.cmake
+│               │   ├── export_xr_msgs__rosidl_generator_cppExport.cmake
+│               │   ├── export_xr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+│               │   ├── export_xr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+│               │   ├── export_xr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+│               │   ├── export_xr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+│               │   ├── rosidl_cmake-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_cmake/rosidl_cmake-extras.cmake
+│               │   ├── rosidl_cmake_export_typesupport_libraries-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+│               │   ├── rosidl_cmake_export_typesupport_targets-extras.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+│               │   ├── xr_msgsConfig-version.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_core/xr_msgsConfig-version.cmake
+│               │   ├── xr_msgsConfig.cmake -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_core/xr_msgsConfig.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_cExport.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_cppExport.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_introspection_cExport.cmake
+│               │   ├── xr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+│               │   └── xr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+│               ├── environment
+│               │   ├── ament_prefix_path.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│               │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│               │   ├── library_path.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/library_path.dsv
+│               │   ├── library_path.sh -> /opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh
+│               │   ├── path.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/path.dsv
+│               │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│               ├── hook
+│               │   ├── cmake_prefix_path.dsv
+│               │   ├── cmake_prefix_path.ps1
+│               │   ├── cmake_prefix_path.sh
+│               │   ├── ld_library_path_lib.dsv
+│               │   ├── ld_library_path_lib.ps1
+│               │   └── ld_library_path_lib.sh
+│               ├── local_setup.bash -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/local_setup.bash
+│               ├── local_setup.dsv -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/local_setup.dsv
+│               ├── local_setup.sh -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/local_setup.sh
+│               ├── local_setup.zsh -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/ament_cmake_environment_hooks/local_setup.zsh
+│               ├── msg
+│               │   ├── Controller.idl -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_adapter/xr_msgs/msg/Controller.idl
+│               │   ├── Controller.msg -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs/msg/Controller.msg
+│               │   ├── Custom.idl -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_adapter/xr_msgs/msg/Custom.idl
+│               │   ├── Custom.msg -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs/msg/Custom.msg
+│               │   ├── Head.idl -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_adapter/xr_msgs/msg/Head.idl
+│               │   └── Head.msg -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs/msg/Head.msg
+│               ├── package.bash
+│               ├── package.dsv
+│               ├── package.ps1
+│               ├── package.sh
+│               ├── package.xml -> /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs/package.xml
+│               └── package.zsh
+├── log
+│   ├── COLCON_IGNORE
+│   ├── build_2026-01-19_10-16-22
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── picoxr
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── xr_msgs
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-01-19_10-46-21
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── picoxr
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── xr_msgs
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-01-19_10-46-56
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── picoxr
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── xr_msgs
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-01-19_14-10-03
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── picoxr
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── xr_msgs
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-01-19_16-28-27
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── picoxr
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── xr_msgs
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2026-01-19_16-28-27
+├── picoxr
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── pico_view.rviz
+│   ├── package.xml
+│   └── src
+│       └── publisher.cpp
+└── xr_msgs
+    ├── CMakeLists.txt
+    ├── msg
+    │   ├── Controller.msg
+    │   ├── Custom.msg
+    │   └── Head.msg
+    └── package.xml
+
+219 directories, 706 files

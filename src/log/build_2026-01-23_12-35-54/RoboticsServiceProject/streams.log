@@ -1,0 +1,37 @@
+[0.009s] Invoking command in '/home/dyros/pico_ws/src/build/RoboticsServiceProject': /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/install/RoboticsServiceProject
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.192s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.198s] -- /home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/bin
+[0.198s] [0mOS_PLATFORM: x86_64[0m
+[0.204s] -- Looking for pthread.h
+[0.249s] -- Looking for pthread.h - found
+[0.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.301s] -- Found Threads: TRUE  
+[0.303s] -- Performing Test HAVE_STDATOMIC
+[0.375s] -- Performing Test HAVE_STDATOMIC - Success
+[0.376s] -- Found WrapAtomic: TRUE  
+[0.436s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.436s] -- Checking for module 'grpc++'
+[0.446s] --   Found grpc++, version 1.30.2
+[0.478s] -- Checking for module 'protobuf'
+[0.487s] --   Found protobuf, version 3.18.0
+[0.510s] [0mOS_PLATFORM: x86_64[0m
+[0.514s] -- Checking for modules 'grpc++;grpc'
+[0.525s] --   Found grpc++, version 1.30.2
+[0.532s] --   Found grpc, version 10.0.0
+[0.564s] -- Checking for module 'grpc++'
+[0.574s] --   Found grpc++, version 1.30.2
+[0.602s] -- Configuring done
+[0.622s] -- Generating done
+[0.625s] -- Build files have been written to: /home/dyros/pico_ws/src/build/RoboticsServiceProject

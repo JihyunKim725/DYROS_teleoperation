@@ -210,6 +210,43 @@ talker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
+#=============================================================================
+# Target rules for targets named body_measurement_node
+
+# Build rule for target.
+body_measurement_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 body_measurement_node
+.PHONY : body_measurement_node
+
+# fast build rule for target.
+body_measurement_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_measurement_node.dir/build.make CMakeFiles/body_measurement_node.dir/build
+.PHONY : body_measurement_node/fast
+
+src/body_measurement_node.o: src/body_measurement_node.cpp.o
+.PHONY : src/body_measurement_node.o
+
+# target to build an object file
+src/body_measurement_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_measurement_node.dir/build.make CMakeFiles/body_measurement_node.dir/src/body_measurement_node.cpp.o
+.PHONY : src/body_measurement_node.cpp.o
+
+src/body_measurement_node.i: src/body_measurement_node.cpp.i
+.PHONY : src/body_measurement_node.i
+
+# target to preprocess a source file
+src/body_measurement_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_measurement_node.dir/build.make CMakeFiles/body_measurement_node.dir/src/body_measurement_node.cpp.i
+.PHONY : src/body_measurement_node.cpp.i
+
+src/body_measurement_node.s: src/body_measurement_node.cpp.s
+.PHONY : src/body_measurement_node.s
+
+# target to generate assembly for a file
+src/body_measurement_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_measurement_node.dir/build.make CMakeFiles/body_measurement_node.dir/src/body_measurement_node.cpp.s
+.PHONY : src/body_measurement_node.cpp.s
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... picoxr_uninstall"
 	@echo "... uninstall"
+	@echo "... body_measurement_node"
 	@echo "... talker"
+	@echo "... src/body_measurement_node.o"
+	@echo "... src/body_measurement_node.i"
+	@echo "... src/body_measurement_node.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

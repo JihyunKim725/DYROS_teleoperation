@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"DeviceConnectionManager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CommonUtils::@033c9704e7889ee5190a"
+		}
+	],
+	"id" : "DeviceConnectionManager_autogen::@83b64a181fc586100370",
+	"isGeneratorProvided" : true,
+	"name" : "DeviceConnectionManager_autogen",
+	"paths" : 
+	{
+		"build" : "DeviceConnectionManager",
+		"source" : "DeviceConnectionManager"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/CMakeFiles/DeviceConnectionManager_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dyros/pico_ws/src/build/RoboticsServiceProject/DeviceConnectionManager/CMakeFiles/DeviceConnectionManager_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

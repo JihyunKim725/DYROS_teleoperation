@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "talker" "DESTINATION" "lib/picoxr")
+# install("TARGETS" "talker" "body_measurement_node" "DESTINATION" "lib/picoxr")
 include("/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/build/picoxr/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/dyros/pico_ws/src/XRoboToolkit-PC-Service/RoboticsService/SDK/linux/64/libPXREARobotSDK.so" "DESTINATION" "lib")

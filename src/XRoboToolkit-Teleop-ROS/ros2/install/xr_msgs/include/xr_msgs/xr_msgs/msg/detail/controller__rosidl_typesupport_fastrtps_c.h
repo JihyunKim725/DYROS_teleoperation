@@ -1,1 +1,0 @@
-/home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/build/xr_msgs/rosidl_typesupport_fastrtps_c/xr_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h

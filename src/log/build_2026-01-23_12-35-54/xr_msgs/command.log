@@ -1,0 +1,1 @@
+Invoking command in '/home/dyros/pico_ws/src/build/xr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dyros/pico_ws/src/XRoboToolkit-Teleop-ROS/ros2/xr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dyros/pico_ws/src/install/xr_msgs
